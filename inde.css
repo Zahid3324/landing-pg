@@ -1,0 +1,295 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+   
+}
+.btn-primary{
+    background-color: darkcyan;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover{
+    color: brown;
+    background-color: lightgreen;
+}
+.btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+.btn:hover{
+    color: aqua;
+    background-color: blue;
+}
+.top-banner {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.85em;
+}
+.top-banner a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 1px solid #eee;
+}
+
+.main-header .logo {
+    font-weight: 900; 
+    color: red;
+}
+.main-header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 15px;
+}
+.main-header nav a:hover{
+    background-color: blue;
+    color: red;
+}
+.hero-section {
+    background-image: url(za.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero-content {
+    padding: 50px 20px 30px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+ .btn-primary{
+      background-color: darkcyan;
+}
+.hero-image {
+    width: 100%;
+    height: 350px; 
+    background-image: url('path/to/hero_kitchen_image.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.key-features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 5%;
+    text-align: center;
+    background-color: aliceblue;
+    height: 200px;
+}
+
+.feature-item img{
+    flex-basis: 20%; 
+    padding: 15px;
+}
+
+.feature-item.discount{
+    position: relative;
+}
+.brands-parts{
+    background-color: rgb(50, 50, 121);
+    color: white;
+    padding: 20px;
+}
+.zahid{
+    text-align: center;
+}
+.brand-grid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.brand-item img {
+    width: 200px;
+    height: 200px;
+  
+    border-radius: 8px;
+}
+.brand-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.get{
+    margin: auto;
+    display: flex;
+    background-color: darkcyan; 
+    border-radius: 20px;
+    border: none;
+    padding:  11px 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+.reviews-section h2{
+      text-align: center;
+}
+.review-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.review-item { 
+    text-align: center;
+}
+.review-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.website-callout {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: rgb(227, 192, 181);
+}
+
+.website-mockup {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.website-mockup img {
+    height: 300px;
+    width: 200px;
+}
+
+.website-content {
+    flex-basis: 60%;
+    padding-left: 50px;
+}
+
+.website-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.core-benefits {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.benefit-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.cta-footer {
+ background-color: gray;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+.cta-footer button{
+     background-color: darkcyan;
+}
+.cta-footer button:hover{
+    color: blue;
+    background-color: brown;
+}
+.footer-part{
+    background-color: rgb(1, 1, 38);
+    color: white;
+    text-align: center;
+    display: flex;
+
+}
+.footer-items{
+    margin:40px auto;
+}
+.footer-items img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+ form input{
+    padding: 5px;
+    width: 300px;
+}
+form button{
+    padding: 5px;
+    background-color: rgb(210, 109, 36);
+    border:none;
+}
+.zola{
+    background-color:  rgb(1, 1, 38);
+      display: flex;
+}
+.zola img{
+align-items: center;
+margin: 20px auto;
+height: 100px;
+width: 100px;
+border-radius: 10px;
+}
+.zola p{
+    color: white;
+    margin: 50px auto;
+}
+  @media only screen and(max-width: 455px) {
+    body{
+       background-color: aliceblue;
+    }
+    .brand-grid{
+         flex-direction: column;
+   } 
+ }  
